@@ -2,6 +2,7 @@ package com.example.demo.model;
 
 import java.util.Objects;
 
+
 public class User {
 
     private int id;

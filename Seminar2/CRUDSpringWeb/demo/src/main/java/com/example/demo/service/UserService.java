@@ -29,5 +29,13 @@ public class UserService {
         userRepository.deleteUserById(id);
     }
 
-    //public void deleteById(int id)
+    public void updateUser(User user) {
+        userRepository.updateUser(user);
+    }
+
+    public User getUser(String id) {
+        return userRepository.findById(id);
+    }
+
+
 }

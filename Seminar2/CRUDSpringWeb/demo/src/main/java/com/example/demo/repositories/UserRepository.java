@@ -1,6 +1,7 @@
 package com.example.demo.repositories;
 
 import com.example.demo.model.User;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
@@ -31,9 +32,9 @@ public class UserRepository {
     }
 
     public User save(User user) {
-        String sql = "INSERT INTO userTable VALUES ( ?, ?)";
+        String sql = "INSERT INTO userTable VALUES (NULL, ?, ?)";
         jdbc.update(sql, user.getFirstName(), user.getLastName());
-        return  user;
+        return user;
     }
 
     public void deleteUserById(String id) {
@@ -41,7 +42,29 @@ public class UserRepository {
         jdbc.update(sql, id);
     }
 
+    public User findById(String id) {
+        String sql = "SELECT * FROM userTable WHERE id=?";
 
-    //public void deleteById(int id)
-    //"DELETE FROM userTable WHERE id=?"
+        RowMapper<User> userRowMapper = (r, i) -> {
+            User rowObject = new User();
+            rowObject.setId(r.getInt("id"));
+            rowObject.setFirstName(r.getString("firstName"));
+            rowObject.setLastName(r.getString("lastName"));
+            return rowObject;
+        };
+
+        try {
+            return jdbc.queryForObject(sql, new Object[]{id}, userRowMapper);
+        } catch (EmptyResultDataAccessException e) {
+            return null;
+        }
+    }
+
+
+    public void updateUser(User user) {
+        String sql = "UPDATE userTable SET firstName=?, lastName=? WHERE id=?";
+        jdbc.update(sql, user.getFirstName(), user.getLastName(), user.getId());
+    }
 }
+
+
