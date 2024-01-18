@@ -18,6 +18,13 @@ public class UserService {
         this.userRepository = userRepository;
     }
 
+    /**
+     * Создание сущности пользователь
+     * @param name имя
+     * @param age возраст
+     * @param email электронная почта
+     * @return
+     */
     public User createUser(String name, int age, String email) {
         User user = new User();
         user.setName(name);

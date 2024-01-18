@@ -18,10 +18,15 @@ public class UserController {
     @GetMapping
     public List<User> userList() { return service.getDataProcessingService().getRepository().getUsers(); }
 
+    /**
+     * Сохранение пользователя из тела запроса
+     * @param user пользователь
+     * @return
+     */
     @PostMapping("/body")
     public String userAddFromBody(@RequestBody User user)
     {
-        service.getDataProcessingService().getRepository().getUsers().add(user);
+        service.getDataProcessingService().getRepository().save(user);
         return "User added from body!";
     }
 
