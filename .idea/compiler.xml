@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sem3HomeTask (1)" />
         <module name="sem3HomeTask" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="sem3HomeTask" options="-parameters" />
+      <module name="sem3HomeTask (1)" options="-parameters" />
       <module name="seminar_2" options="-parameters" />
     </option>
   </component>
