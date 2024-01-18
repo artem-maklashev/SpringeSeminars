@@ -24,4 +24,26 @@ public class UserController {
         service.getDataProcessingService().getRepository().getUsers().add(user);
         return "User added from body!";
     }
+
+    /**
+     * Добавление пользователя из параметров запроса
+     * @param name имя пользователя
+     * @param age возраст пользователя
+     * @param email электронная почта
+     * @return результат добавления пользователя
+     */
+    @PostMapping("/params")
+    public String userAddFromParam(
+            @RequestParam(name="name", defaultValue = "") String name,
+            @RequestParam(name="age", defaultValue = "0") String age,
+            @RequestParam(name="email", defaultValue = "") String email
+    ) {
+        try {
+            int userAge = Integer.parseInt(age);
+            service.processRegistration(name, userAge, email);
+            return "User added from params!";
+        } catch (NumberFormatException e) {
+            return "Can't add user. Wrong params";
+        }
+    }
 }

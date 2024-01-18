@@ -19,28 +19,48 @@ public class DataProcessingService {
     @Autowired
     private UserRepository repository;
 
-
-    public List<User> sortUsersByAge(List<User> users) {
-        return users.stream()
+    /**
+     * Сортировка пользователей в порядке возрастания
+     *
+     * @return Отсортированный список пользователей
+     */
+    public List<User> sortUsersByAge() {
+        return repository.getUsers().stream()
                 .sorted(Comparator.comparing(User::getAge))
                 .collect(Collectors.toList());
     }
 
-    public List<User> filterUsersByAge(List<User> users, int age) {
-        return users.stream()
+    /**
+     * Фильтрация пользователей по возрасту
+     *
+     * @param age возраст
+     * @return Список плользователей старше указанного возраста
+     */
+    public List<User> filterUsersByAge(int age) {
+        return repository.getUsers().stream()
                 .filter(user -> user.getAge() > age)
                 .collect(Collectors.toList());
     }
 
-    public double calculateAverageAge(List<User> users) {
-        return users.stream()
+    /**
+     * Вычисление среднего возраста пользователей
+     *
+     * @return средний возраст пользователей
+     */
+    public double calculateAverageAge() {
+        return repository.getUsers().stream()
                 .mapToInt(User::getAge)
                 .average()
                 .orElse(0);
     }
 
-    public void  addUserToList(User user)
-    {
+    /**
+     * Добавление пользователя
+     * @param user пользователь
+     */
+    public void addUserToList(User user) {
         repository.getUsers().add(user);
     }
+
+
 }
