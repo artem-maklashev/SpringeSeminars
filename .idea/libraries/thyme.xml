@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="maven-wrapper">
+  <library name="thyme">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/Seminar4/.mvn/wrapper/maven-wrapper.jar!/" />
     </CLASSES>

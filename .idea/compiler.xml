@@ -6,15 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Seminar4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="11" />
-      <module name="Seminar4" target="20" />
+      <module name="sem3HomeTask" target="17" />
+      <module name="sem3HomeTask (1)" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Seminar4" options="-parameters" />
       <module name="demo" options="-parameters" />
     </option>
   </component>
