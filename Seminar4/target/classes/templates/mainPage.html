@@ -1,0 +1,80 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Список пользователей</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container-md mt-3 d-flex align-items-center">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="text-center">Список пользователей</h3>
+            <table class="table table-bordered table-striped ">
+                <thead class="thead-dark">
+                <tr>
+                    <th>Username</th>
+                    <th>Password</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="user : ${users}">
+                    <td th:text="${user.userName}"></td>
+                    <td th:text="${user.password}"></td>
+                </tr>
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-outline-primary mb-3" data-toggle="modal" data-target="#myModal"
+                    th:onclick="'javascript:openForm()'">Добавить
+            </button>
+        </div>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Добавление пользователя</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form th:action="@{/form}" th:object="${user}" method="post">
+                            <div class="form-group">
+                                <label for="username">Username:</label>
+                                <input type="text" class="form-control" id="username" th:field="*{userName}" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password:</label>
+                                <input type="password" class="form-control" id="password" th:field="*{password}"
+                                       required>
+                            </div>
+                            <button type="submit" class="btn btn-success">Сохранить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script th:inline="javascript">
+    $(document).ready(function () {
+        $('#myModal').on('hidden.bs.modal', function () {
+            location.href = '/?timestamp=' + new Date().getTime();
+        });
+    });
+</script>
+<script th:inline="javascript">
+    function openForm() {
+        $.post('/form', $('#myForm').serialize(), function (data) {
+            $('#myModal .modal-body').html(data);
+            $('#myModal').modal('hide');
+            window.location.href = '/';
+        });
+    }
+</script>
+</body>
+</html>

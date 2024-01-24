@@ -18,6 +18,10 @@ public class UserRepository {
         this.jdbc = jdbc;
     }
 
+    /**
+     * Метод получения списка всех пользователей из БД
+     * @return список пользователей
+     */
     public List<User> findAll() {
         String sql = "SELECT * FROM userTable";
 
@@ -32,17 +36,31 @@ public class UserRepository {
         return jdbc.query(sql, userRowMapper);
     }
 
+    /**
+     * Метод добавления пользователя в БД
+     * @param user пользователь
+     * @return пользователь
+     */
     public User save(User user) {
-        String sql = "INSERT INTO userTable VALUES (NULL, ?, ?)";
+        String sql = "INSERT INTO userTable (firstName, lastName) VALUES ( ?, ?)";
         jdbc.update(sql, user.getFirstName(), user.getLastName());
         return user;
     }
 
+    /**
+     * Метод удаления пользователя из БД по номеру
+     * @param id номер пользователя
+     */
     public void deleteUserById(String id) {
         String sql = "DELETE FROM userTable WHERE id=?";
         jdbc.update(sql, id);
     }
 
+    /**
+     * Метод поиска пользователя по номеру
+     * @param id номер пользователя
+     * @return пользователь
+     */
     public User findById(String id) {
         String sql = "SELECT * FROM userTable WHERE id=?";
 
