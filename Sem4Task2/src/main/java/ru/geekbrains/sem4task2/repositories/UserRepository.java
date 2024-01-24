@@ -5,6 +5,7 @@ import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
+import ru.geekbrains.sem4task2.configuration.H2DatabaseConfig;
 import ru.geekbrains.sem4task2.model.User;
 
 import java.util.List;
@@ -13,9 +14,11 @@ import java.util.List;
 public class UserRepository {
 
     private final JdbcTemplate jdbc;
+    private final H2DatabaseConfig h2DatabaseConfig;
 
-    public UserRepository(JdbcTemplate jdbc) {
+    public UserRepository(JdbcTemplate jdbc, H2DatabaseConfig h2DatabaseConfig) {
         this.jdbc = jdbc;
+        this.h2DatabaseConfig = h2DatabaseConfig;
     }
 
     /**
@@ -23,7 +26,7 @@ public class UserRepository {
      * @return список пользователей
      */
     public List<User> findAll() {
-        String sql = "SELECT * FROM userTable";
+//        String sql = "SELECT * FROM userTable";
 
         RowMapper<User> userRowMapper = (r, i) -> {
             User rowObject = new User();
@@ -33,7 +36,7 @@ public class UserRepository {
             return rowObject;
         };
 
-        return jdbc.query(sql, userRowMapper);
+        return jdbc.query(h2DatabaseConfig.getFindAll(), userRowMapper);
     }
 
     /**
@@ -42,8 +45,8 @@ public class UserRepository {
      * @return пользователь
      */
     public User save(User user) {
-        String sql = "INSERT INTO userTable (firstName, lastName) VALUES ( ?, ?)";
-        jdbc.update(sql, user.getFirstName(), user.getLastName());
+//        String sql = "INSERT INTO userTable (firstName, lastName) VALUES ( ?, ?)";
+        jdbc.update(h2DatabaseConfig.getSave(), user.getFirstName(), user.getLastName());
         return user;
     }
 
@@ -52,8 +55,8 @@ public class UserRepository {
      * @param id номер пользователя
      */
     public void deleteUserById(String id) {
-        String sql = "DELETE FROM userTable WHERE id=?";
-        jdbc.update(sql, id);
+//        String sql = "DELETE FROM userTable WHERE id=?";
+        jdbc.update(h2DatabaseConfig.getDeleteUserById(), id);
     }
 
     /**
@@ -62,7 +65,7 @@ public class UserRepository {
      * @return пользователь
      */
     public User findById(String id) {
-        String sql = "SELECT * FROM userTable WHERE id=?";
+//        String sql = "SELECT * FROM userTable WHERE id=?";
 
         RowMapper<User> userRowMapper = (r, i) -> {
             User rowObject = new User();
@@ -73,7 +76,7 @@ public class UserRepository {
         };
 
         try {
-            return jdbc.queryForObject(sql, new Object[]{id}, userRowMapper);
+            return jdbc.queryForObject(h2DatabaseConfig.getFindById(), new Object[]{id}, userRowMapper);
         } catch (EmptyResultDataAccessException e) {
             return null;
         }
@@ -81,8 +84,8 @@ public class UserRepository {
 
 
     public void updateUser(User user) {
-        String sql = "UPDATE userTable SET firstName=?, lastName=? WHERE id=?";
-        jdbc.update(sql, user.getFirstName(), user.getLastName(), user.getId());
+//        String sql = "UPDATE userTable SET firstName=?, lastName=? WHERE id=?";
+        jdbc.update(h2DatabaseConfig.getUpdateUser(), user.getFirstName(), user.getLastName(), user.getId());
     }
 }
 
