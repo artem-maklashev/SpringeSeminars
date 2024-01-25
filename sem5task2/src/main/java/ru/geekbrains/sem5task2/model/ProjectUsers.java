@@ -8,11 +8,11 @@ import lombok.Data;
 @Table(name = "project_users")
 public class ProjectUsers extends EntityWithRelation{
     @ManyToOne
-    @JoinColumn(name = "project_id", referencedColumnName = "id", insertable = false, updatable = false)
+    @JoinColumn(name = "project_id", referencedColumnName = "id")
     private Project project;
 
     @ManyToOne
-    @JoinColumn(name = "user_id", referencedColumnName = "id", insertable = false, updatable = false)
+    @JoinColumn(name = "user_id", referencedColumnName = "id")
     private User user;
 
 }

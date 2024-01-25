@@ -11,5 +11,5 @@ public abstract class EntityWithRelation {
     @Column(name = "id")
     private Long id;
     @Column(name = "related_entity_id")
-    private Long relatedEntityId;
+    private Long relatedEntityId = 1L;
 }

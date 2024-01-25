@@ -49,6 +49,8 @@ public class UserProjectService {
         ProjectUsers pu = new ProjectUsers();
         pu.setUser(user);
         pu.setProject(project);
+        pu.setRelatedEntityId(1L);
+        System.out.println(pu);
         usersProjectRepository.save(pu);
     }
 
