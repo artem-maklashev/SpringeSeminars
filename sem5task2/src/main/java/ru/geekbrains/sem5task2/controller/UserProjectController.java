@@ -33,7 +33,7 @@ public class UserProjectController {
         return ResponseEntity.ok(projects);
     }
 
-    @PostMapping("/addUserToRpoject/{userId}/{projectId}")
+    @PostMapping("/addUserToProject/{userId}/{projectId}")
     public ResponseEntity<String> addUserToProject(@PathVariable Long userId, @PathVariable Long projectId){
         usersProjectService.addUserToProject(userId, projectId);
         return ResponseEntity.ok(String.format("Пользователь %s добавлен к проекту %s", userId, projectId));
