@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c19832d4-bb11-49a0-a6b6-5764a77dc243" name="Changes" comment="HW4 task2 local commit" />
+    <list default="true" id="c19832d4-bb11-49a0-a6b6-5764a77dc243" name="Changes" comment="HW5 task2 before testing">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sem5task2/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -84,12 +89,13 @@
     "Spring Boot.Sem3HomeTaskApplication.executor": "Run",
     "Spring Boot.Sem4Task2Application.executor": "Run",
     "Spring Boot.Sem5Application.executor": "Run",
+    "Spring Boot.Sem5task2Application.executor": "Run",
     "Spring Boot.Unnamed.executor": "Run",
     "Spring Boot.part2.executor": "Run",
     "git-widget-placeholder": "HW5",
     "jdk.selected.JAVA_MODULE": "20",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Программирование/SpringeSminars/sem5",
+    "last_opened_file_path": "D:/Программирование/SpringeSminars/sem5task2/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -109,6 +115,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Программирование\SpringeSminars\sem5task2\src\main\resources" />
       <recent name="D:\Программирование\SpringeSminars\Sem4Task2\src\main\resources\templates" />
       <recent name="D:\Программирование\SpringeSminars\Sem4Task2\src\main\java\ru\geekbrains\sem4task2" />
       <recent name="D:\Программирование\SpringeSminars\Seminar 3 h2" />
@@ -128,7 +135,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Sem5Application">
+  <component name="RunManager" selected="Spring Boot.Sem5task2Application">
     <configuration name="Sem5Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="sem5" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.sem5.Sem5Application" />
@@ -168,6 +175,7 @@
       <workItem from="1705922251543" duration="3253000" />
       <workItem from="1706096316224" duration="3491000" />
       <workItem from="1706159392432" duration="10022000" />
+      <workItem from="1706173131194" duration="10204000" />
     </task>
     <task id="LOCAL-00001" summary="старт уданеия пользователя">
       <option name="closed" value="true" />
@@ -289,7 +297,31 @@
       <option name="project" value="LOCAL" />
       <updated>1706159470856</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="HW5 task2 init">
+      <option name="closed" value="true" />
+      <created>1706173185054</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1706173185054</updated>
+    </task>
+    <task id="LOCAL-00017" summary="HW5 task2 before testing">
+      <option name="closed" value="true" />
+      <created>1706182995503</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706182995503</updated>
+    </task>
+    <task id="LOCAL-00018" summary="HW5 task2 before testing">
+      <option name="closed" value="true" />
+      <created>1706183014640</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1706183014640</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +364,9 @@
     <MESSAGE value="HW4 task2 init" />
     <MESSAGE value="HW4 task2 init with Seminar 2 data" />
     <MESSAGE value="HW4 task2 local commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW4 task2 local commit" />
+    <MESSAGE value="HW5 task2 init" />
+    <MESSAGE value="HW5 task2 before testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW5 task2 before testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

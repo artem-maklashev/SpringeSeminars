@@ -1,12 +1,12 @@
 CREATE TABLE IF NOT EXISTS users (
      id BIGINT AUTO_INCREMENT PRIMARY KEY,
      username varchar(50) NOT NULL,
-     password varchar(20) NOT NULL,
-     email varchar(20) NOT NULL
+     password varchar(50) NOT NULL,
+     email varchar(50) NOT NULL
 );
 CREATE TABLE IF NOT EXISTS project (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    name varchar(50) NOT NULL,
+    name varchar(100) NOT NULL,
     description varchar(150) NOT NULL,
     createdDate DATE NOT NULL
 );
