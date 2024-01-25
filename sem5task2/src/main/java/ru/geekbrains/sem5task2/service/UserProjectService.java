@@ -32,7 +32,8 @@ public class UserProjectService {
                 .collect(Collectors.toList());
     }
     public List<Project> getProjectsByUserId(Long userId){
-        List<ProjectUsers> pu =  usersProjectRepository.findProjectsByUserId(userId);
+        List<ProjectUsers> pu =  usersProjectRepository.findAllByUserId(userId);
+        System.out.println("Список проектов с пользователем " + userId + " " + pu.size());
         return pu.stream().map(usersProject -> projectRepository.findById(usersProject.getProject().getId()).orElse(null))
                 .collect(Collectors.toList());
     }

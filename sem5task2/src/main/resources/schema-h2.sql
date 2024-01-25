@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS project (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     name varchar(100) NOT NULL,
     description varchar(150) NOT NULL,
-    createdDate DATE NOT NULL
+    created_date DATE NOT NULL
 );
 CREATE TABLE IF NOT EXISTS project_users (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,

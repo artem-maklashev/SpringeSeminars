@@ -11,7 +11,7 @@ import java.util.List;
 public interface UsersProjectRepository extends JpaRepository<ProjectUsers, Long> {
     List<ProjectUsers> findUsersByProjectId(Long projectId);
 
-    List<ProjectUsers> findProjectsByUserId(Long userId);
+    List<ProjectUsers> findAllByUserId(Long userId);
 
     boolean existsByUserIdAndProjectId(Long userId, Long projectId);
 }

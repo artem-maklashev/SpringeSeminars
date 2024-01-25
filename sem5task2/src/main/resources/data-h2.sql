@@ -1,8 +1,8 @@
 INSERT INTO users (username, password, email) VALUES
-      ('user1', '$2a$10$examplehashedpassword1', 'user1@example.com'),
-      ('user2', '$2a$10$examplehashedpassword2', 'user2@example.com'),
-      ('user3', '$2a$10$examplehashedpassword3', 'user3@example.com');
-INSERT INTO project (name, description, createdDate) VALUES
+                                                  ('user1', 'password1', 'user1@example.com'),
+                                                  ('user2', 'password2', 'user2@example.com'),
+                                                  ('user3', 'password3', 'user3@example.com');
+INSERT INTO project (name, description, created_date) VALUES
     ('Project A', 'Description for Project A', '2024-01-25'),
     ('Project B', 'Description for Project B', '2024-01-26'),
     ('Project C', 'Description for Project C', '2024-01-27');

@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c19832d4-bb11-49a0-a6b6-5764a77dc243" name="Changes" comment="HW5 task2 before testing">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c19832d4-bb11-49a0-a6b6-5764a77dc243" name="Changes" comment="HW5 task2 исправлена инициализация БД">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sem5task2/src/main/resources/data-h2.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/repository/UsersProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/repository/UsersProjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/service/UserProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/service/UserProjectService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sem5task2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sem5task2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sem5task2/src/main/resources/schema-h2.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +180,7 @@
       <workItem from="1705922251543" duration="3253000" />
       <workItem from="1706096316224" duration="3491000" />
       <workItem from="1706159392432" duration="10022000" />
-      <workItem from="1706173131194" duration="10204000" />
+      <workItem from="1706173131194" duration="13196000" />
     </task>
     <task id="LOCAL-00001" summary="старт уданеия пользователя">
       <option name="closed" value="true" />
@@ -321,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706183014640</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="HW5 task2 исправлена инициализация БД">
+      <option name="closed" value="true" />
+      <created>1706184205683</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706184205683</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +379,8 @@
     <MESSAGE value="HW4 task2 local commit" />
     <MESSAGE value="HW5 task2 init" />
     <MESSAGE value="HW5 task2 before testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW5 task2 before testing" />
+    <MESSAGE value="HW5 task2 исправлена инициализация БД" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW5 task2 исправлена инициализация БД" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
