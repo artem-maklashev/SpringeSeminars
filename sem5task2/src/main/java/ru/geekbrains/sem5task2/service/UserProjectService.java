@@ -26,17 +26,34 @@ public class UserProjectService {
         this.usersProjectRepository = usersProjectRepository;
     }
 
+    /**
+     * Получение списка пользователей по номеру проекта из репозитория
+     * @param projectId Номер проекта
+     * @return Список пользвоателей
+     */
     public List<User> getUsersByProjectId(Long projectId){
         List<ProjectUsers> pu =  usersProjectRepository.findUsersByProjectId(projectId);
         return pu.stream().map(usersProject -> userRepository.findById(usersProject.getUser().getId()).orElse(null))
                 .collect(Collectors.toList());
     }
+
+    /**
+     * Получение списка проектов определенного пользователя из репозитория
+     * @param userId Номер пользователя
+     * @return Спискок проектов
+     */
     public List<Project> getProjectsByUserId(Long userId){
         List<ProjectUsers> pu =  usersProjectRepository.findAllByUserId(userId);
         System.out.println("Список проектов с пользователем " + userId + " " + pu.size());
         return pu.stream().map(usersProject -> projectRepository.findById(usersProject.getProject().getId()).orElse(null))
                 .collect(Collectors.toList());
     }
+
+    /**
+     * Добавление пользователя к определенному проекту в репозитории
+     * @param userId Номер пользователя
+     * @param projectId Номер проекта
+     */
     @Transactional
     public void addUserToProject(Long userId, Long projectId) {
         User user = userRepository.findById(userId).orElseThrow(
@@ -54,6 +71,11 @@ public class UserProjectService {
         usersProjectRepository.save(pu);
     }
 
+    /**
+     * Удаление пользователя из проектв
+     * @param userId Номер пользователя
+     * @param projectId Номер проекта
+     */
     public void removeUserFromProject(Long userId, Long projectId){
         List<ProjectUsers> pul = usersProjectRepository.findUsersByProjectId(projectId);
         pul.stream().filter(projectUsers -> projectUsers.getUser().getId().equals(userId)).findFirst()

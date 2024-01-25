@@ -21,29 +21,51 @@ public class UserProjectController {
         this.usersProjectService = usersProjectService;
     }
 
+    /**
+     * Обработка запроса на получение всех пользователей определенного проекта
+     * @param id Номер проекта
+     * @return список пользователей
+     */
     @GetMapping("/usersOfProject/{id}")
     public ResponseEntity<List<User>> getUsersByProjectId(@PathVariable Long id) {
         List<User> users = usersProjectService.getUsersByProjectId(id);
         return ResponseEntity.ok(users);
     }
 
+    /**
+     * Обработка запроса на получение всех проектов определенного пользователя
+     * @param id Номер пользователя
+     * @return Список проектов
+     */
     @GetMapping("/projectsOfUser/{id}")
     public ResponseEntity<List<Project>> getProjectsByUserId(@PathVariable Long id) {
         List<Project> projects = usersProjectService.getProjectsByUserId(id);
         return ResponseEntity.ok(projects);
     }
 
+    /**
+     * Обработка запроса на добавление пользователя к проекту
+     * @param userId Номер пользователя
+     * @param projectId номер проекта
+     * @return Результат выполненгия операци
+     */
     @PostMapping("/addUserToProject/{userId}/{projectId}")
     public ResponseEntity<String> addUserToProject(@PathVariable Long userId, @PathVariable Long projectId){
         usersProjectService.addUserToProject(userId, projectId);
         return ResponseEntity.ok(String.format("Пользователь %s добавлен к проекту %s", userId, projectId));
     }
 
+    /**
+     * Обработка запроса на удаление определенного пользователя из проекта
+     * @param userId Номер пользователя
+     * @param projectId номер проекта
+     * @return Результат выполненгия операци
+     */
     @PostMapping("/remove-user/{userId}/from-project/{projectId}")
     public ResponseEntity<String> removeUserFromProject(
             @PathVariable Long userId,
             @PathVariable Long projectId) {
         usersProjectService.removeUserFromProject(userId, projectId);
-        return ResponseEntity.ok("Пользователь удален из проекта");
+        return ResponseEntity.ok(String.format("Пользователь %s удален из проекта %s", userId, projectId));
     }
 }
