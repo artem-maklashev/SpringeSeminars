@@ -14,6 +14,9 @@
     <projectState path="$PROJECT_DIR$/Seminar4Task2">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/sem5task2">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -86,7 +89,7 @@
     "git-widget-placeholder": "HW5",
     "jdk.selected.JAVA_MODULE": "20",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Программирование/gg 7.11.23",
+    "last_opened_file_path": "D:/Программирование/SpringeSminars/sem5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -125,10 +128,17 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Sem5Application">
     <configuration name="Sem5Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="sem5" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.sem5.Sem5Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sem5task2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="sem5task2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.sem5task2.Sem5task2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,7 +167,7 @@
       <workItem from="1705902928405" duration="11028000" />
       <workItem from="1705922251543" duration="3253000" />
       <workItem from="1706096316224" duration="3491000" />
-      <workItem from="1706159392432" duration="8061000" />
+      <workItem from="1706159392432" duration="10022000" />
     </task>
     <task id="LOCAL-00001" summary="старт уданеия пользователя">
       <option name="closed" value="true" />
