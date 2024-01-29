@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>Rick and Morty Characters</title>
+
+    <!-- Add Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          integrity="sha384-bfsLTW8i+TqWq5StVbq8BBtqKUWU9+ZFej/fzAFA00CgPxJ6olJ1o4ZU81aQ2X2o"
+          crossorigin="anonymous">
+
+    <!-- Add Bootstrap 5 JS and Popper.js (if needed) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-bH82Qckz1E+K3bPDjRtOkDqLEsm+Xp1TAiOpRwzWgfsUJ3G6D/Dh9opKTHLPRHxD"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container"> <!-- Wrap your content in a container for Bootstrap styling -->
+    <div class="row justify-content-center">
+        <div class="col col-12">
+            <h1>Rick and Morty Characters</h1>
+            <!-- Display Info -->
+            <p>Total characters: <span th:text="${info.count}"></span></p>
+            <p>Total pages: <span th:text="${info.pages}"></span></p>
+            <!--        <p>Next page: <span th:text="${info.next}"></span></p>-->
+            <!--        <p>Previous page: <span th:text="${info.prev}"></span></p>-->
+        </div>
+    </div>
+    <div class="row">
+        <!-- Display Characters in a Table -->
+        <table class="table table-striped table-bordered">
+            <thead>
+            <tr class="table-dark">
+                <th>Image</th>
+                <th>Name</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="character : ${characters}">
+                <td><img th:src="${character.image}" alt="Character Image" style="max-width: 100px; max-height: 100px;">
+                </td>
+                <td><a th:href="@{'/characters/details/' + ${character.id}}" th:text="${character.name}"></a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="row">
+        <!-- Navigation Buttons -->
+        <div>
+            <form th:action="@{'/characters/previous'}" method="get" th:unless="${info.prev == null}">
+                <button class="btn btn-primary" type="submit">Previous Page</button>
+            </form>
+
+            <form th:action="@{'/characters/next'}" method="get" th:unless="${info.next == null}">
+                <button class="btn btn-primary" type="submit">Next Page</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

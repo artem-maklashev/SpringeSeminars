@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty Character Details</title>
+</head>
+<body>
+<h1>Rick and Morty Character Details</h1>
+
+<!-- Display Character Details -->
+<p>ID: <span th:text="${character.id}"></span></p>
+<p>Name: <span th:text="${character.name}"></span></p>
+<!-- Добавьте другие детали персонажа по вашему усмотрению -->
+
+<!-- Вернитесь на предыдущую страницу -->
+<a href="javascript:history.back()">Back to Characters</a>
+
+</body>
+</html>
