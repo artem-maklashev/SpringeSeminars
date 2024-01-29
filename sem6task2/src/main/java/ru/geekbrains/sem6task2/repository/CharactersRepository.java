@@ -4,10 +4,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.stereotype.Repository;
 import ru.geekbrains.sem6task2.model.Characters;
-import ru.geekbrains.sem6task2.model.Info;
-import ru.geekbrains.sem6task2.model.Results;
-import ru.geekbrains.sem6task2.service.CharacterService;
 
+/**
+ * Репозиторий для хранения объекта Characters, полученного из запроса
+ */
 @Data
 @Repository
 @AllArgsConstructor

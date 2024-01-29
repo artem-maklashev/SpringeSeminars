@@ -10,14 +10,13 @@
     <div class="row text-center">
         <h1>Rick and Morty Character Details</h1>
     </div>
-    <div class=“row”>
+    <div class="row">
         <!-- Вернитесь на предыдущую страницу -->
-        <button type=“button” class="btn btn-primary mt-5 mb-5" href="javascript:history.back()”>Back to Characters</button>
+        <a class="btn btn-primary mt-5 mb-5" href="javascript:history.back()">Back to Characters</a>
     </div>
     <div class="row">
         <div class="col-2">
-            <img th:src="${character.image}" class="img-thumbnail" alt="Character Image" style="max-width: 100px; max-height: 100px;"
-                 >
+            <img th:src="${character.image}" class="img-thumbnail" alt="Character Image" style="max-width: 100px; max-height: 100px;">
         </div>
         <div class="col-10">
             <!-- Display Character Details -->
@@ -61,7 +60,8 @@
                 </tr>
                 <tr>
                     <td>URL</td>
-                    <td><a th:href="${character.getUrl()}"></a></td>
+                    <td><a th:text="${character.url}"></a></td>
+<!--                    <td><a th:href="${character.url}" th:text="${character.url}"></a></td>-->
                 </tr>
                 <tr>
                     <td>Created</td>
@@ -69,26 +69,12 @@
                 </tr>
                 </tbody>
             </table>
-<!--            <p>ID: <span th:text="${character.id}"></span></p>-->
-<!--            <p>Name: <span th:text="${character.name}"></span></p>-->
-<!--            <p>Status <span th:text="${character.status}"></span></p>-->
-<!--            <p>Species <span th:text="${character.species}"></span></p>-->
-<!--            <p>Type <span th:text="${character.type}"></span></p>-->
-<!--            <p>Gender <span th:text="${character.gender}"></span></p>-->
-<!--            <p>Origin-->
-<!--            <p>Name <span th:text="${character.origin.name}"></span></p>-->
-<!--            </p>-->
-<!--            <p>Status <span th:text="${character.status}"></span></p>-->
-<!--            <p>Status <span th:text="${character.status}"></span></p>-->
-
-            <!-- Добавьте другие детали персонажа по вашему усмотрению -->
         </div>
     </div>
-
-
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

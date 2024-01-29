@@ -3,6 +3,10 @@ package ru.geekbrains.sem6task2.model;
 import lombok.Data;
 
 import java.util.List;
+
+/**
+ * Класс персонажа
+ */
 @Data
 public class Character {
     private int id;

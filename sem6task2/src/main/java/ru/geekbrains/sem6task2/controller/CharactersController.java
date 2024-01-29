@@ -19,7 +19,12 @@ public class CharactersController {
     @Autowired
     private CharacterService characterService;
 
-    @GetMapping("/characters")
+    /**
+     * Метод для получения данных о персонажах из API и отображения их на странице.
+     * @param model Модель для отображения данных.
+     * @return Название шаблона для отображения.
+     */
+    @GetMapping("/")
     public String getCharacters(Model model) {
         Characters characters = fetchData(apiUrl);
         characterService.setCharacters(characters);
@@ -28,29 +33,48 @@ public class CharactersController {
         return "mainPage";
     }
 
+    /**
+     * Переход на предыдущую страницу персонажей.
+     * @return Название шаблона для отображения.
+     */
     @GetMapping("/characters/previous")
-    public String getPreviousCharacters(Model model) {
+    public String getPreviousCharacters() {
         String url = characterService.getPrevPage();
         if (url != null) {
             apiUrl = url;
         }
-        return "redirect:/characters";
+        return "redirect:/";
     }
 
+    /**
+     * Переход на следующую страницу персонажей.
+     * @return Название шаблона для отображения.
+     */
     @GetMapping("/characters/next")
-    public String getNextCharacters(Model model) {
+    public String getNextCharacters() {
         String url = characterService.getNextPage();
         if (url != null) {
             apiUrl = url;
         }
-        return "redirect:/characters";
+        return "redirect:/";
     }
 
+    /**
+     * Метод для получения данных о персонажах из API.
+     * @param url URL для запроса.
+     * @return Объект Characters с данными о персонажах.
+     */
     private Characters fetchData(String url) {
         RestTemplate restTemplate = new RestTemplate();
         return restTemplate.getForObject(url, Characters.class);
     }
 
+    /**
+     * Метод для получения детальной информации о персонаже.
+     * @param id ID персонажа.
+     * @param model Модель для отображения данных.
+     * @return Название шаблона для отображения.
+     */
     @GetMapping("/characters/details/{id}")
     public String getCharacterDetails(@PathVariable int id, Model model) {
         Character character = characterService.getCharacterById(id);
@@ -58,6 +82,6 @@ public class CharactersController {
             model.addAttribute("character", character);
             return "characterDetails";
         }
-        return "redirect:/characters";
+        return "redirect:/";
     }
 }
