@@ -32,7 +32,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="sem6task1" options="" />
+      <module name="sem6task1" options="-parameters" />
       <module name="sem6task2" options="-parameters" />
     </option>
   </component>
