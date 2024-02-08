@@ -4,37 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c19832d4-bb11-49a0-a6b6-5764a77dc243" name="Changes" comment="HW5 task2 исправлен файл настроек приложения для инициализации начальных данных" />
+    <list default="true" id="527dfecd-ba2b-4f42-9437-64f54ce9b05b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/SpringeSeminars.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sem5/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sem5/src/main/java/ru/geekbrains/sem5/annotation/TrackUserAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sem5/src/main/java/ru/geekbrains/sem5/aspect/UserActionTrackerAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5/src/main/java/ru/geekbrains/sem5/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sem5/src/main/java/ru/geekbrains/sem5/service/TaskService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$/Seminar4Task2">
-      <ProjectState />
-    </projectState>
-    <projectState path="$PROJECT_DIR$/sem5task2">
-      <ProjectState />
-    </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand />
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -42,126 +34,54 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HW4" />
+        <entry key="$PROJECT_DIR$" value="HW5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="2azUgfIVjGppp3q85sCNPDWW3Gm" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2c4hPmZ54V4GteUs1Xn0wHn9m13" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Seminar4.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.DemoApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Sem3HomeTaskApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Sem3HomeTaskApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Sem4Task2Application.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Sem5Application.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Sem5task2Application.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.part2.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;HW5&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Программирование/SpringeSminars&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.4041411&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;h2&quot;
-    ]
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Sem5Application.executor": "Run",
+    "git-widget-placeholder": "HW7",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Программирование\SpringeSminars\sem5task2\src\main\resources" />
-      <recent name="D:\Программирование\SpringeSminars\Sem4Task2\src\main\resources\templates" />
-      <recent name="D:\Программирование\SpringeSminars\Sem4Task2\src\main\java\ru\geekbrains\sem4task2" />
-      <recent name="D:\Программирование\SpringeSminars\Seminar 3 h2" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Программирование\SpringeSminars\Sem4Task2\src\main\resources" />
-      <recent name="D:\Программирование\SpringeSminars\Sem4Task2\src\main\resources\static" />
-      <recent name="D:\Программирование\SpringeSminars\Seminar3" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="MicronautRunConfigurationType" />
-        <option value="QuarkusRunConfigurationType" />
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.Sem5task2Application">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="sem5" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="sem5" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager">
     <configuration name="Sem5Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="sem5" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.sem5.Sem5Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sem5task2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="sem5task2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.sem5task2.Sem5task2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,192 +95,16 @@
       </set>
     </attachedChunks>
   </component>
-  <component name="ShelveChangesManager">
-    <option name="groupingKeys">
-      <option value="directory" />
-      <option value="module" />
-    </option>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c19832d4-bb11-49a0-a6b6-5764a77dc243" name="Changes" comment="" />
-      <created>1705321013674</created>
+      <changelist id="527dfecd-ba2b-4f42-9437-64f54ce9b05b" name="Changes" comment="" />
+      <created>1707376736389</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1705321013674</updated>
-      <workItem from="1705321014996" duration="1534000" />
-      <workItem from="1705379525933" duration="3299000" />
-      <workItem from="1705567439339" duration="11567000" />
-      <workItem from="1705580135455" duration="3362000" />
-      <workItem from="1705902928405" duration="11028000" />
-      <workItem from="1705922251543" duration="3253000" />
-      <workItem from="1706096316224" duration="3491000" />
-      <workItem from="1706159392432" duration="10022000" />
-      <workItem from="1706173131194" duration="13301000" />
-      <workItem from="1706186944519" duration="1667000" />
+      <updated>1707376736389</updated>
+      <workItem from="1707376737776" duration="4259000" />
     </task>
-    <task id="LOCAL-00001" summary="старт уданеия пользователя">
-      <option name="closed" value="true" />
-      <created>1705322500663</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1705322500663</updated>
-    </task>
-    <task id="LOCAL-00002" summary="HW2 done">
-      <option name="closed" value="true" />
-      <created>1705408509822</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1705408509822</updated>
-    </task>
-    <task id="LOCAL-00003" summary="HW3 init">
-      <option name="closed" value="true" />
-      <created>1705568118353</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1705568118353</updated>
-    </task>
-    <task id="LOCAL-00004" summary="HW3 part1 done">
-      <option name="closed" value="true" />
-      <created>1705575273494</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1705575273494</updated>
-    </task>
-    <task id="LOCAL-00005" summary="HW3 part2 init">
-      <option name="closed" value="true" />
-      <created>1705576418595</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1705576418595</updated>
-    </task>
-    <task id="LOCAL-00006" summary="HW3 part2 init">
-      <option name="closed" value="true" />
-      <created>1705580001792</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1705580001792</updated>
-    </task>
-    <task id="LOCAL-00007" summary="HW3 part2 init">
-      <option name="closed" value="true" />
-      <created>1705580702187</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1705580702187</updated>
-    </task>
-    <task id="LOCAL-00008" summary="HW3 part2 done">
-      <option name="closed" value="true" />
-      <created>1705582050154</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1705582050155</updated>
-    </task>
-    <task id="LOCAL-00009" summary="HW3 добавлены соединения Postman">
-      <option name="closed" value="true" />
-      <created>1705582892678</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1705582892678</updated>
-    </task>
-    <task id="LOCAL-00010" summary="HW4 init 3">
-      <option name="closed" value="true" />
-      <created>1705910245355</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1705910245355</updated>
-    </task>
-    <task id="LOCAL-00011" summary="HW4 init 4">
-      <option name="closed" value="true" />
-      <created>1705910289338</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1705910289338</updated>
-    </task>
-    <task id="LOCAL-00012" summary="HW4 task1 done">
-      <option name="closed" value="true" />
-      <created>1705922919447</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1705922919447</updated>
-    </task>
-    <task id="LOCAL-00013" summary="HW4 task2 init">
-      <option name="closed" value="true" />
-      <created>1706011009020</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1706011009020</updated>
-    </task>
-    <task id="LOCAL-00014" summary="HW4 task2 init with Seminar 2 data">
-      <option name="closed" value="true" />
-      <created>1706099206192</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1706099206192</updated>
-    </task>
-    <task id="LOCAL-00015" summary="HW4 task2 local commit">
-      <option name="closed" value="true" />
-      <created>1706159470855</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1706159470856</updated>
-    </task>
-    <task id="LOCAL-00016" summary="HW5 task2 init">
-      <option name="closed" value="true" />
-      <created>1706173185054</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1706173185054</updated>
-    </task>
-    <task id="LOCAL-00017" summary="HW5 task2 before testing">
-      <option name="closed" value="true" />
-      <created>1706182995503</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1706182995503</updated>
-    </task>
-    <task id="LOCAL-00018" summary="HW5 task2 before testing">
-      <option name="closed" value="true" />
-      <created>1706183014640</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1706183014640</updated>
-    </task>
-    <task id="LOCAL-00019" summary="HW5 task2 исправлена инициализация БД">
-      <option name="closed" value="true" />
-      <created>1706184205683</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1706184205683</updated>
-    </task>
-    <task id="LOCAL-00020" summary="HW5 task2 исправлен файл настроек приложения для инициализации начальных данных">
-      <option name="closed" value="true" />
-      <created>1706186719747</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1706186719747</updated>
-    </task>
-    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,58 +115,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HW4" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="SHELVE_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value="старт уданеия пользователя" />
-    <MESSAGE value="HW2 done" />
-    <MESSAGE value="HW3 init" />
-    <MESSAGE value="HW3 part1 done" />
-    <MESSAGE value="HW3 part2 init" />
-    <MESSAGE value="HW3 part2 done" />
-    <MESSAGE value="HW3 добавлены соединения Postman" />
-    <MESSAGE value="HW4 init 3" />
-    <MESSAGE value="HW4 init 4" />
-    <MESSAGE value="HW4 task1 done" />
-    <MESSAGE value="HW4 task2 init" />
-    <MESSAGE value="HW4 task2 init with Seminar 2 data" />
-    <MESSAGE value="HW4 task2 local commit" />
-    <MESSAGE value="HW5 task2 init" />
-    <MESSAGE value="HW5 task2 before testing" />
-    <MESSAGE value="HW5 task2 исправлена инициализация БД" />
-    <MESSAGE value="HW5 task2 исправлен файл настроек приложения для инициализации начальных данных" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW5 task2 исправлен файл настроек приложения для инициализации начальных данных" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Seminar 3 h2/src/main/java/com/example/sem3HomeTask/repository/UserRepository.java</url>
-          <line>23</line>
-          <properties class="com.example.sem3HomeTask.repository.UserRepository">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

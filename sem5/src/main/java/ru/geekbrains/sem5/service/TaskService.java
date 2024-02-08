@@ -2,6 +2,7 @@ package ru.geekbrains.sem5.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import ru.geekbrains.sem5.annotation.TrackUserAction;
 import ru.geekbrains.sem5.model.Task;
 import ru.geekbrains.sem5.repository.TaskRepository;
 import java.util.List;
@@ -18,6 +19,7 @@ public class TaskService {
      * Получение всех задач из репозитория
      * @return Список задач
      */
+    @TrackUserAction
     public List<Task> getAllTask() {
         return taskRepository.findAll();
     }
@@ -27,6 +29,7 @@ public class TaskService {
      * @param task Добавляемая задача
      * @return Добавленая задача
      */
+    @TrackUserAction
     public Task addTask(Task task) {
         return taskRepository.save(task);
     }
@@ -36,6 +39,7 @@ public class TaskService {
      * @param status Необходимый статус задачи
      * @return Список задач с указанным статусом
      */
+    @TrackUserAction
     public List<Task> getTaskByStatus(Task.TaskStatus status) {
         return taskRepository.findTasksByTaskStatus(status);
     }
@@ -46,6 +50,7 @@ public class TaskService {
      * @param task Задача с измененным статусом
      * @return Задача с измененным статусом
      */
+    @TrackUserAction
     public Task updateTaskStatus(long id, Task task) {
         Task oldTask = taskRepository.findById(id).orElse(null);
         if (oldTask != null){
@@ -59,6 +64,7 @@ public class TaskService {
      * Удаление задачи по номеру из репозитория
      * @param id Номер задачи для удаления
      */
+    @TrackUserAction
     public void deleteTask(long id) {
         taskRepository.deleteById(id);
     }
