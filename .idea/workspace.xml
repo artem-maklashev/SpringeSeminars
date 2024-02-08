@@ -5,31 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="692cf364-9099-4168-a722-b50c9d71d820" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sem5/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apiGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apiGateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apiGateway/src/main/java/ru/geekbrains/apiGateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apiGateway/src/main/java/ru/geekbrains/apiGateway/ApiGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/sem5task2.postman_collection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/Sem5task2Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/controller/UserProjectController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/model/EntityWithRelation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/model/Project.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/model/ProjectUsers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/repository/ProjectRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/repository/UsersProjectRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/service/UserProjectService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/resources/data-h2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/resources/schema-h2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5task2/src/test/java/ru/geekbrains/sem5task2/Sem5task2ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sem5/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5/src/main/java/ru/geekbrains/sem5/Sem5Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/sem5/src/main/java/ru/geekbrains/sem5/Sem5Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5/src/main/resources/Sem5.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/sem5/Sem5.postman_collection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/sem5/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +28,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -54,6 +41,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -62,10 +53,18 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Sem5Application">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="apiGateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.apiGateway.ApiGatewayApplication" />
@@ -87,6 +86,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.Sem5Application" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,8 +100,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707418676919</updated>
-      <workItem from="1707418678336" duration="424000" />
+      <workItem from="1707418678336" duration="3444000" />
     </task>
+    <task id="LOCAL-00001" summary="in progress">
+      <option name="closed" value="true" />
+      <created>1707419136954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707419136955</updated>
+    </task>
+    <task id="LOCAL-00002" summary="in progress 2">
+      <option name="closed" value="true" />
+      <created>1707419161856</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707419161856</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +134,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="in progress" />
+    <MESSAGE value="in progress 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="in progress 2" />
   </component>
 </project>

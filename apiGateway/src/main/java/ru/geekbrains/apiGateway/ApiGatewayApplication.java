@@ -12,6 +12,12 @@ public class ApiGatewayApplication {
     public static void main(String[] args) {
         SpringApplication.run(ApiGatewayApplication.class, args);
     }
+
+    /**
+     * Бин для настройки роутинга
+     * @param builder построитель роутинга
+     * @return маршрут
+     */
     @Bean
     public RouteLocator myRoutes(RouteLocatorBuilder builder) {
         return builder.routes()
