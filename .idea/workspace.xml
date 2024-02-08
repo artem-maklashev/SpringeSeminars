@@ -4,19 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="527dfecd-ba2b-4f42-9437-64f54ce9b05b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SpringeSeminars.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sem5/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sem5/src/main/java/ru/geekbrains/sem5/annotation/TrackUserAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sem5/src/main/java/ru/geekbrains/sem5/aspect/UserActionTrackerAspect.java" afterDir="false" />
+    <list default="true" id="527dfecd-ba2b-4f42-9437-64f54ce9b05b" name="Changes" comment="HW7 task1 add postman json">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiGateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiGateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiGateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiGateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiGateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiGateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiGateway/src/main/java/ru/geekbrains/apiGateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiGateway/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiGateway/src/test/java/ru/geekbrains/apiGateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/src/main/java/ru/geekbrains/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaServer/src/test/java/ru/geekbrains/eurekaserver/EurekaserverApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_01_2024_15_47__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_01_2024_15_47__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5/src/main/java/ru/geekbrains/sem5/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sem5/src/main/java/ru/geekbrains/sem5/service/TaskService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +46,20 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HW5" />
+        <entry key="$PROJECT_DIR$" value="HW7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2c4hPmZ54V4GteUs1Xn0wHn9m13" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,6 +69,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "Maven.apiGateway [clean].executor": "Run",
+    "Maven.apiGateway [install].executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -64,8 +81,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ApiFatewayApplication.executor": "Run",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+    "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.EurekaserverApplication.executor": "Run",
     "Spring Boot.Sem5Application.executor": "Run",
-    "git-widget-placeholder": "HW7",
+    "git-widget-placeholder": "HW8",
+    "jdk.selected.JAVA_MODULE": "20",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -73,12 +95,42 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4041411",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Программирование\SpringeSeminars\sem5\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="apiGateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.apiGateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eurekaServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sem5Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="sem5" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.sem5.Sem5Application" />
@@ -103,8 +155,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707376736389</updated>
-      <workItem from="1707376737776" duration="4259000" />
+      <workItem from="1707376737776" duration="5311000" />
+      <workItem from="1707389378219" duration="4734000" />
     </task>
+    <task id="LOCAL-00001" summary="HW7 task1 done">
+      <option name="closed" value="true" />
+      <created>1707384418934</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707384418935</updated>
+    </task>
+    <task id="LOCAL-00002" summary="HW7 task1 add postman json">
+      <option name="closed" value="true" />
+      <created>1707384586653</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707384586653</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,5 +190,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HW7 task1 done" />
+    <MESSAGE value="HW7 task1 add postman json" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW7 task1 add postman json" />
   </component>
 </project>
