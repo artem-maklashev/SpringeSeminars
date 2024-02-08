@@ -4,119 +4,68 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="527dfecd-ba2b-4f42-9437-64f54ce9b05b" name="Changes" comment="HW7 task1 add postman json">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apiGateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apiGateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apiGateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apiGateway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apiGateway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apiGateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apiGateway/src/main/java/ru/geekbrains/apiGateway/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apiGateway/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apiGateway/src/test/java/ru/geekbrains/apiGateway/ApiGatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaServer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaServer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaServer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaServer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaServer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaServer/src/main/java/ru/geekbrains/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaServer/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaServer/src/test/java/ru/geekbrains/eurekaserver/EurekaserverApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_01_2024_15_47__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_01_2024_15_47__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="692cf364-9099-4168-a722-b50c9d71d820" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sem5/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apiGateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiGateway/src/main/java/ru/geekbrains/apiGateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apiGateway/src/main/java/ru/geekbrains/apiGateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/sem5task2.postman_collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/Sem5task2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/controller/UserProjectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/model/EntityWithRelation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/model/Project.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/model/ProjectUsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/repository/ProjectRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/repository/UsersProjectRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/java/ru/geekbrains/sem5task2/service/UserProjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/resources/data-h2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/main/resources/schema-h2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sem5task2/src/test/java/ru/geekbrains/sem5task2/Sem5task2ApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="AnnotationType" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HW7" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
 }]]></component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="2c4hPmZ54V4GteUs1Xn0wHn9m13" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2c64QH3hPafx0jWNstvKcW75Ou5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Maven.apiGateway [clean].executor": "Run",
-    "Maven.apiGateway [install].executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.ApiFatewayApplication.executor": "Run",
-    "Spring Boot.ApiGatewayApplication.executor": "Run",
-    "Spring Boot.EurekaServerApplication.executor": "Run",
-    "Spring Boot.EurekaserverApplication.executor": "Run",
-    "Spring Boot.Sem5Application.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "HW8",
-    "jdk.selected.JAVA_MODULE": "20",
-    "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.4041411",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Программирование\SpringeSeminars\sem5\src\main\resources" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="MicronautRunConfigurationType" />
-        <option value="QuarkusRunConfigurationType" />
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="apiGateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.apiGateway.ApiGatewayApplication" />
@@ -139,42 +88,16 @@
       </method>
     </configuration>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
-        <option value="jdk-20.0.2-temurin-20.0.2-3183f394aec4-341d77ce" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="527dfecd-ba2b-4f42-9437-64f54ce9b05b" name="Changes" comment="" />
-      <created>1707376736389</created>
+      <changelist id="692cf364-9099-4168-a722-b50c9d71d820" name="Changes" comment="" />
+      <created>1707418676919</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1707376736389</updated>
-      <workItem from="1707376737776" duration="5311000" />
-      <workItem from="1707389378219" duration="4734000" />
+      <updated>1707418676919</updated>
+      <workItem from="1707418678336" duration="424000" />
     </task>
-    <task id="LOCAL-00001" summary="HW7 task1 done">
-      <option name="closed" value="true" />
-      <created>1707384418934</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1707384418935</updated>
-    </task>
-    <task id="LOCAL-00002" summary="HW7 task1 add postman json">
-      <option name="closed" value="true" />
-      <created>1707384586653</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1707384586653</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,10 +113,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="HW7 task1 done" />
-    <MESSAGE value="HW7 task1 add postman json" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW7 task1 add postman json" />
   </component>
 </project>
