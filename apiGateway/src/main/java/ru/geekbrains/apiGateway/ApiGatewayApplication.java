@@ -14,6 +14,8 @@ public class ApiGatewayApplication {
     }
     @Bean
     public RouteLocator myRoutes(RouteLocatorBuilder builder) {
-        return builder.routes().build();
+        return builder.routes()
+                .route("sem8",r->r.path("/api/**")
+                .uri("http://localhost:8081/")).build();
     }
 }
