@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/artem-maklashev/microservice-configuration-sem8-spring.git
+          username: artem-maklashev
+          password: Ak_11062009
+          default-label: main
+          search-paths: "{application}"
+server:
+  port: 8888

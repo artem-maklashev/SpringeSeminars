@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="692cf364-9099-4168-a722-b50c9d71d820" name="Changes" comment="">
+    <list default="true" id="692cf364-9099-4168-a722-b50c9d71d820" name="Changes" comment="HW8 in progress">
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/ru/geekbrains/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/test/java/ru/geekbrains/configserver/ConfigServerApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apiGateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiGateway/src/main/java/ru/geekbrains/apiGateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apiGateway/src/main/java/ru/geekbrains/apiGateway/ApiGatewayApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sem5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sem5/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5/src/main/java/ru/geekbrains/sem5/Sem5Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/sem5/src/main/java/ru/geekbrains/sem5/Sem5Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5/src/main/resources/Sem5.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/sem5/Sem5.postman_collection.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sem5/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/sem5/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +38,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2c64QH3hPafx0jWNstvKcW75Ou5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,8 +55,13 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+    "Spring Boot.ConfigServerApplication.executor": "Run",
+    "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.Sem5Application.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "HW8",
+    "jdk.selected.JAVA_MODULE": "20",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,6 +85,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eurekaServer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.eurekaserver.EurekaServerApplication" />
@@ -87,6 +107,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.Sem5Application" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -138,6 +159,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="in progress" />
     <MESSAGE value="in progress 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="in progress 2" />
+    <MESSAGE value="HW8 in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW8 in progress" />
   </component>
 </project>

@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="apiGateway" />
+        <module name="config-server" />
         <module name="eurekaServer" />
         <module name="sem5" />
       </profile>
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="apiGateway" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
       <module name="sem5" options="-parameters" />
     </option>
