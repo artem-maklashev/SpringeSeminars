@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="692cf364-9099-4168-a722-b50c9d71d820" name="Changes" comment="edit deatil form">
+    <list default="true" id="692cf364-9099-4168-a722-b50c9d71d820" name="Changes" comment="HW8 in done">
       <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707419161856</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HW8 in done">
+      <option name="closed" value="true" />
+      <created>1707655439216</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707655439216</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +174,7 @@
     <MESSAGE value="in progress 2" />
     <MESSAGE value="HW8 in progress" />
     <MESSAGE value="edit deatil form" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit deatil form" />
+    <MESSAGE value="HW8 in done" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW8 in done" />
   </component>
 </project>
