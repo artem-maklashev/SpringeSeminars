@@ -14,6 +14,10 @@
         <module name="sem5" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sem6task1" target="17" />
+      <module name="sem6task2" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
