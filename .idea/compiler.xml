@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="apiGateway" />
         <module name="config-server" />
+        <module name="notification" />
         <module name="eurekaServer" />
         <module name="sem5" />
       </profile>
@@ -19,6 +20,7 @@
       <module name="apiGateway" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
+      <module name="notification" options="-parameters" />
       <module name="sem5" options="-parameters" />
     </option>
   </component>

@@ -1,6 +1,7 @@
 package ru.geekbrains.sem5.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.web.bind.annotation.*;
 import ru.geekbrains.sem5.model.Task;
 import ru.geekbrains.sem5.service.TaskService;
@@ -9,9 +10,12 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
+@EnableFeignClients
 public class TaskController {
     private final TaskService taskService;
 
+    @Autowired
+    private NotificationServiceFeignClient feignClient;
     @Autowired
     public TaskController(TaskService taskService) {
         this.taskService = taskService;
@@ -23,6 +27,7 @@ public class TaskController {
      */
     @GetMapping("/tasks")
     public List<Task> getAllTasks() {
+        feignClient.sendNotification("Запрошены все задачи");
         return taskService.getAllTask();
     }
 
@@ -33,6 +38,7 @@ public class TaskController {
      */
     @PostMapping("/addTask")
     public Task addTask(@RequestBody Task task){
+        feignClient.sendNotification("добавлена задача " + task.getDescription());
         return taskService.addTask(task);
     }
 
@@ -43,6 +49,7 @@ public class TaskController {
      */
     @GetMapping("/status/{status}")
     public List<Task> getTasksByStatus(@PathVariable Task.TaskStatus status){
+        feignClient.sendNotification("Запрошены задачи со статусом " + status.toString());
         return taskService.getTaskByStatus(status);
     }
 
