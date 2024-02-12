@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="692cf364-9099-4168-a722-b50c9d71d820" name="Changes" comment="HW8 in done">
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sem5/src/test/java/ru/geekbrains/sem5/service/TaskServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,15 +16,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HW6" />
+        <entry key="$PROJECT_DIR$" value="HW8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,13 +55,13 @@
     "Spring Boot.NotificationApplication.executor": "Run",
     "Spring Boot.Sem5Application.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "HW8",
+    "git-widget-placeholder": "HW10",
     "jdk.selected.JAVA_MODULE": "20",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -73,7 +72,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Sem5Application">
+  <component name="RunManager" selected="JUnit.TaskServiceTest.getAllTaskTest">
+    <configuration name="TaskServiceTest.getAllTaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sem5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.sem5.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.sem5.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.sem5.service.TaskServiceTest" />
+      <option name="METHOD_NAME" value="getAllTaskTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="apiGateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.apiGateway.ApiGatewayApplication" />
@@ -110,12 +125,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.TaskServiceTest.getAllTaskTest" />
       <item itemvalue="Spring Boot.NotificationApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.Sem5Application" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TaskServiceTest.getAllTaskTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -127,6 +148,7 @@
       <updated>1707418676919</updated>
       <workItem from="1707418678336" duration="3444000" />
       <workItem from="1707640640957" duration="3446000" />
+      <workItem from="1707748568801" duration="4005000" />
     </task>
     <task id="LOCAL-00001" summary="in progress">
       <option name="closed" value="true" />
