@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="692cf364-9099-4168-a722-b50c9d71d820" name="Changes" comment="HW8 in done">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="692cf364-9099-4168-a722-b50c9d71d820" name="Changes" comment="HW10 unit test done">
+      <change afterPath="$PROJECT_DIR$/sem5/src/test/java/ru/geekbrains/sem5/service/TaskServiceIntegrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sem5/src/test/java/ru/geekbrains/sem5/service/TaskServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sem5/src/test/java/ru/geekbrains/sem5/service/TaskServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +29,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,6 +46,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.TaskServiceIntegrationTest (1).executor": "Run",
+    "JUnit.TaskServiceIntegrationTest.executor": "Run",
     "JUnit.TaskServiceTest.executor": "Run",
     "JUnit.TaskServiceTest.getAllTaskTest.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
@@ -63,10 +64,12 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "HW10",
     "jdk.selected.JAVA_MODULE": "20",
+    "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
@@ -81,7 +84,31 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TaskServiceTest">
+  <component name="RunManager" selected="JUnit.TaskServiceIntegrationTest (1)">
+    <configuration name="TaskServiceIntegrationTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sem5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.sem5.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.sem5.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.sem5.service.TaskServiceIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sem5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TaskServiceIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TaskServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sem5" />
       <extension name="coverage">
@@ -149,6 +176,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.TaskServiceIntegrationTest" />
+      <item itemvalue="JUnit.TaskServiceIntegrationTest (1)" />
       <item itemvalue="JUnit.TaskServiceTest" />
       <item itemvalue="JUnit.TaskServiceTest.getAllTaskTest" />
       <item itemvalue="Spring Boot.NotificationApplication" />
@@ -159,10 +188,20 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TaskServiceIntegrationTest (1)" />
+        <item itemvalue="JUnit.TaskServiceIntegrationTest" />
         <item itemvalue="JUnit.TaskServiceTest" />
         <item itemvalue="JUnit.TaskServiceTest.getAllTaskTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+        <option value="jdk-20.0.2-temurin-20.0.2-3183f394aec4-341d77ce" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -175,6 +214,7 @@
       <workItem from="1707418678336" duration="3444000" />
       <workItem from="1707640640957" duration="3446000" />
       <workItem from="1707748568801" duration="4005000" />
+      <workItem from="1707895568356" duration="1516000" />
     </task>
     <task id="LOCAL-00001" summary="in progress">
       <option name="closed" value="true" />
@@ -200,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707655439216</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HW10 unit test done">
+      <option name="closed" value="true" />
+      <created>1707828311001</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707828311001</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +271,7 @@
     <MESSAGE value="HW8 in progress" />
     <MESSAGE value="edit deatil form" />
     <MESSAGE value="HW8 in done" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW8 in done" />
+    <MESSAGE value="HW10 unit test done" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW10 unit test done" />
   </component>
 </project>
