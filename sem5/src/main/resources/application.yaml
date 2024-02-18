@@ -4,26 +4,14 @@ spring:
   cloud:
     config:
       fail-fast: true
+      uri: http://localhost:8888
+      label: main
   config:
     import: optional:configserver:http://localhost:8888
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: health,info,metrics
 
 
-
-
-
-#  datasource:
-#    url: jdbc:h2:mem:userTable
-#    driver-class-name: org.h2.Driver
-#    username: sa
-#    password: password
-#  h2:
-#    console:
-#      enabled: true
-#  thymeleaf:
-#    enabled: true
-#eureka:
-#  client:
-#    service-url:
-#      defaultZone: http://localhost:8761/eureka/
-#server:
-#  port: 8081

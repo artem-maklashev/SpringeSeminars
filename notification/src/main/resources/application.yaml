@@ -1,2 +1,12 @@
 server:
   port: 8079
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, metrics, loggers, prometheus
+
+spring:
+  application:
+    name: notification_service

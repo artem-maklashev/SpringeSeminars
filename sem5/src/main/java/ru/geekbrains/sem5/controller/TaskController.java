@@ -1,5 +1,6 @@
 package ru.geekbrains.sem5.controller;
 
+import io.micrometer.core.instrument.MeterRegistry;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.web.bind.annotation.*;
@@ -12,22 +13,26 @@ import java.util.List;
 @RequestMapping("/api")
 @EnableFeignClients
 public class TaskController {
-    private final TaskService taskService;
+    private final TaskService taskService;dwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+    private final MeterRegistry meterRegistry;
 
     @Autowired
     private NotificationServiceFeignClient feignClient;
     @Autowired
-    public TaskController(TaskService taskService) {
+    public TaskController(TaskService taskService, MeterRegistry meterRegistry) {
         this.taskService = taskService;
+        this.meterRegistry = meterRegistry;
     }
 
     /**
      * Получение списка всех задач
+     * Создание собственной метрики - счетчик количества запросов к эндпоинту /tasks
      * @return список задач
      */
     @GetMapping("/tasks")
     public List<Task> getAllTasks() {
         feignClient.sendNotification("Запрошены все задачи");
+        meterRegistry.counter("get_all_tasks_counter").increment();
         return taskService.getAllTask();
     }
 
