@@ -13,7 +13,7 @@ import java.util.List;
 @RequestMapping("/api")
 @EnableFeignClients
 public class TaskController {
-    private final TaskService taskService;dwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+    private final TaskService taskService;
     private final MeterRegistry meterRegistry;
 
     @Autowired
