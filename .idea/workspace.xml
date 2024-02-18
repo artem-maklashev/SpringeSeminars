@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="692cf364-9099-4168-a722-b50c9d71d820" name="Changes" comment="HW10 unit test done">
-      <change afterPath="$PROJECT_DIR$/2024-02-14_21-39-35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Users.jmx" afterDir="false" />
+    <list default="true" id="692cf364-9099-4168-a722-b50c9d71d820" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707828311001</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HW10 done">
+      <option name="closed" value="true" />
+      <created>1707933174364</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707933174364</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +279,7 @@
     <MESSAGE value="edit deatil form" />
     <MESSAGE value="HW8 in done" />
     <MESSAGE value="HW10 unit test done" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW10 unit test done" />
+    <MESSAGE value="HW10 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW10 done" />
   </component>
 </project>
