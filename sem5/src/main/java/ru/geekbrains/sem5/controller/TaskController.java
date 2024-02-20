@@ -6,6 +6,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.web.bind.annotation.*;
 import ru.geekbrains.sem5.model.Task;
 import ru.geekbrains.sem5.service.TaskService;
+import ru.geekbrains.sem5.service.TaskToFileGateway;
 
 import java.util.List;
 
@@ -15,13 +16,15 @@ import java.util.List;
 public class TaskController {
     private final TaskService taskService;
     private final MeterRegistry meterRegistry;
+    private final TaskToFileGateway taskToFileGateway;
 
     @Autowired
     private NotificationServiceFeignClient feignClient;
     @Autowired
-    public TaskController(TaskService taskService, MeterRegistry meterRegistry) {
+    public TaskController(TaskService taskService, MeterRegistry meterRegistry, TaskToFileGateway taskToFileGateway) {
         this.taskService = taskService;
         this.meterRegistry = meterRegistry;
+        this.taskToFileGateway = taskToFileGateway;
     }
 
     /**
@@ -44,6 +47,7 @@ public class TaskController {
     @PostMapping("/addTask")
     public Task addTask(@RequestBody Task task){
         feignClient.sendNotification("добавлена задача " + task.getDescription());
+        taskToFileGateway.writeTaskToFile("task_log.txt", task.toString());
         return taskService.addTask(task);
     }
 
