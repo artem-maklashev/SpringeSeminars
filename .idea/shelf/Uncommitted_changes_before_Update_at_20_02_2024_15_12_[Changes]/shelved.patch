@@ -1,0 +1,125 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"692cf364-9099-4168-a722-b50c9d71d820\" name=\"Changes\" comment=\"HW10 unit test done\">\r\n      <change afterPath=\"$PROJECT_DIR$/sem5/src/test/java/ru/geekbrains/sem5/service/TaskServiceIntegrationTest.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"HW8\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"KubernetesApiProvider\">{\r\n  &quot;isMigrated&quot;: true\r\n}</component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2c64QH3hPafx0jWNstvKcW75Ou5\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"JUnit.TaskServiceIntegrationTest (1).executor\": \"Run\",\r\n    \"JUnit.TaskServiceIntegrationTest.executor\": \"Run\",\r\n    \"JUnit.TaskServiceTest.executor\": \"Run\",\r\n    \"JUnit.TaskServiceTest.getAllTaskTest.executor\": \"Run\",\r\n    \"RequestMappingsPanelOrder0\": \"0\",\r\n    \"RequestMappingsPanelOrder1\": \"1\",\r\n    \"RequestMappingsPanelWidth0\": \"75\",\r\n    \"RequestMappingsPanelWidth1\": \"75\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"Spring Boot.ApiGatewayApplication.executor\": \"Run\",\r\n    \"Spring Boot.ConfigServerApplication.executor\": \"Run\",\r\n    \"Spring Boot.EurekaServerApplication.executor\": \"Run\",\r\n    \"Spring Boot.NotificationApplication.executor\": \"Run\",\r\n    \"Spring Boot.Sem5Application.executor\": \"Run\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"git-widget-placeholder\": \"HW10\",\r\n    \"jdk.selected.JAVA_MODULE\": \"20\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"run.configurations.included.in.services\": \"true\",\r\n    \"settings.editor.selected.configurable\": \"editor.preferences.completion\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunDashboard\">\r\n    <option name=\"configurationTypes\">\r\n      <set>\r\n        <option value=\"MicronautRunConfigurationType\" />\r\n        <option value=\"QuarkusRunConfigurationType\" />\r\n        <option value=\"SpringBootApplicationConfigurationType\" />\r\n      </set>\r\n    </option>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.TaskServiceIntegrationTest (1)\">\r\n    <configuration name=\"TaskServiceIntegrationTest (1)\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"sem5\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ru.geekbrains.sem5.service.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"ru.geekbrains.sem5.service\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ru.geekbrains.sem5.service.TaskServiceIntegrationTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TaskServiceIntegrationTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"sem5\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"TaskServiceIntegrationTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TaskServiceTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"sem5\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ru.geekbrains.sem5.service.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"ru.geekbrains.sem5.service\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ru.geekbrains.sem5.service.TaskServiceTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TaskServiceTest.getAllTaskTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"sem5\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ru.geekbrains.sem5.service.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"ru.geekbrains.sem5.service\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ru.geekbrains.sem5.service.TaskServiceTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"getAllTaskTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ApiGatewayApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"apiGateway\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"ru.geekbrains.apiGateway.ApiGatewayApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ConfigServerApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"config-server\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"ru.geekbrains.configserver.ConfigServerApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"EurekaServerApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"eurekaServer\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"ru.geekbrains.eurekaserver.EurekaServerApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"NotificationApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"notification\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.example.notification.NotificationApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Sem5Application\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"sem5\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"ru.geekbrains.sem5.Sem5Application\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"JUnit.TaskServiceIntegrationTest\" />\r\n      <item itemvalue=\"JUnit.TaskServiceIntegrationTest (1)\" />\r\n      <item itemvalue=\"JUnit.TaskServiceTest\" />\r\n      <item itemvalue=\"JUnit.TaskServiceTest.getAllTaskTest\" />\r\n      <item itemvalue=\"Spring Boot.NotificationApplication\" />\r\n      <item itemvalue=\"Spring Boot.ConfigServerApplication\" />\r\n      <item itemvalue=\"Spring Boot.ApiGatewayApplication\" />\r\n      <item itemvalue=\"Spring Boot.Sem5Application\" />\r\n      <item itemvalue=\"Spring Boot.EurekaServerApplication\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.TaskServiceIntegrationTest (1)\" />\r\n        <item itemvalue=\"JUnit.TaskServiceIntegrationTest\" />\r\n        <item itemvalue=\"JUnit.TaskServiceTest\" />\r\n        <item itemvalue=\"JUnit.TaskServiceTest.getAllTaskTest\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12\" />\r\n        <option value=\"jdk-20.0.2-temurin-20.0.2-3183f394aec4-341d77ce\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"692cf364-9099-4168-a722-b50c9d71d820\" name=\"Changes\" comment=\"\" />\r\n      <created>1707418676919</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1707418676919</updated>\r\n      <workItem from=\"1707418678336\" duration=\"3444000\" />\r\n      <workItem from=\"1707640640957\" duration=\"3446000\" />\r\n      <workItem from=\"1707748568801\" duration=\"4005000\" />\r\n      <workItem from=\"1707895568356\" duration=\"1516000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"in progress\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707419136954</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707419136955</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"in progress 2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707419161856</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707419161856</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"HW8 in done\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707655439216</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707655439216</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"HW10 unit test done\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1707828311001</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1707828311001</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"in progress\" />\r\n    <MESSAGE value=\"in progress 2\" />\r\n    <MESSAGE value=\"HW8 in progress\" />\r\n    <MESSAGE value=\"edit deatil form\" />\r\n    <MESSAGE value=\"HW8 in done\" />\r\n    <MESSAGE value=\"HW10 unit test done\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"HW10 unit test done\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 9387d7a1189c4967ee1e6b3c4ab5b44bd579573e)
++++ b/.idea/workspace.xml	(date 1708424200785)
+@@ -4,8 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="692cf364-9099-4168-a722-b50c9d71d820" name="Changes" comment="HW10 unit test done">
+-      <change afterPath="$PROJECT_DIR$/sem5/src/test/java/ru/geekbrains/sem5/service/TaskServiceIntegrationTest.java" afterDir="false" />
++    <list default="true" id="692cf364-9099-4168-a722-b50c9d71d820" name="Changes" comment="HW10 integration test added">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -44,37 +43,37 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "JUnit.TaskServiceIntegrationTest (1).executor": "Run",
+-    "JUnit.TaskServiceIntegrationTest.executor": "Run",
+-    "JUnit.TaskServiceTest.executor": "Run",
+-    "JUnit.TaskServiceTest.getAllTaskTest.executor": "Run",
+-    "RequestMappingsPanelOrder0": "0",
+-    "RequestMappingsPanelOrder1": "1",
+-    "RequestMappingsPanelWidth0": "75",
+-    "RequestMappingsPanelWidth1": "75",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "Spring Boot.ApiGatewayApplication.executor": "Run",
+-    "Spring Boot.ConfigServerApplication.executor": "Run",
+-    "Spring Boot.EurekaServerApplication.executor": "Run",
+-    "Spring Boot.NotificationApplication.executor": "Run",
+-    "Spring Boot.Sem5Application.executor": "Run",
+-    "WebServerToolWindowFactoryState": "false",
+-    "git-widget-placeholder": "HW10",
+-    "jdk.selected.JAVA_MODULE": "20",
+-    "kotlin-language-version-configured": "true",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "run.configurations.included.in.services": "true",
+-    "settings.editor.selected.configurable": "editor.preferences.completion",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;JUnit.TaskServiceIntegrationTest (1).executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.TaskServiceIntegrationTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.TaskServiceTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.TaskServiceTest.getAllTaskTest.executor&quot;: &quot;Run&quot;,
++    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
++    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
++    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
++    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
++    &quot;Spring Boot.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
++    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
++    &quot;Spring Boot.NotificationApplication.executor&quot;: &quot;Run&quot;,
++    &quot;Spring Boot.Sem5Application.executor&quot;: &quot;Run&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;HW10&quot;,
++    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RunDashboard">
+     <option name="configurationTypes">
+       <set>
+@@ -214,7 +213,8 @@
+       <workItem from="1707418678336" duration="3444000" />
+       <workItem from="1707640640957" duration="3446000" />
+       <workItem from="1707748568801" duration="4005000" />
+-      <workItem from="1707895568356" duration="1516000" />
++      <workItem from="1707895568356" duration="2447000" />
++      <workItem from="1708414724172" duration="727000" />
+     </task>
+     <task id="LOCAL-00001" summary="in progress">
+       <option name="closed" value="true" />
+@@ -248,7 +248,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1707828311001</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="HW10 integration test added">
++      <option name="closed" value="true" />
++      <created>1707912153186</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1707912153186</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -272,6 +280,7 @@
+     <MESSAGE value="edit deatil form" />
+     <MESSAGE value="HW8 in done" />
+     <MESSAGE value="HW10 unit test done" />
+-    <option name="LAST_COMMIT_MESSAGE" value="HW10 unit test done" />
++    <MESSAGE value="HW10 integration test added" />
++    <option name="LAST_COMMIT_MESSAGE" value="HW10 integration test added" />
+   </component>
+ </project>
+\ No newline at end of file
