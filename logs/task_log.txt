@@ -1,2 +1,12 @@
 Task(id=0, description=Some task, taskStatus=NOT_STARTED, creationDate=2024-02-20T15:59:19.329145500)
 Task(id=0, description=Some task 2, taskStatus=NOT_STARTED, creationDate=2024-02-20T15:59:28.354333100)
+Task(id=0, description=Some task 2, taskStatus=NOT_STARTED, creationDate=2024-02-21T10:25:56.594218400)
+Task(id=0, description=Some task 2, taskStatus=NOT_STARTED, creationDate=2024-02-21T10:25:58.806210300)
+Task(id=0, description=Some task 2, taskStatus=NOT_STARTED, creationDate=2024-02-21T10:30:45.997003400)
+Task(id=0, description=Some task 2, taskStatus=NOT_STARTED, creationDate=2024-02-21T10:30:46.979542800)
+Task(id=0, description=Some task 2, taskStatus=NOT_STARTED, creationDate=2024-02-21T10:42:49.061507500)
+Task(id=0, description=Some task 2, taskStatus=NOT_STARTED, creationDate=2024-02-21T10:42:50.085793900)
+Изменение статуса задачи 0 на IN_PROGRESS
+Task(id=0, description=Some task 2, taskStatus=NOT_STARTED, creationDate=2024-02-21T10:45:57.940755)
+Task(id=0, description=Some task 2, taskStatus=NOT_STARTED, creationDate=2024-02-21T10:45:58.794123400)
+Изменение статуса задачи 1 на IN_PROGRESS

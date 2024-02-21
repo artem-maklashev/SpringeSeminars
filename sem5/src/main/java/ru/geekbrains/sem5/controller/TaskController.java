@@ -70,6 +70,9 @@ public class TaskController {
      */
     @PutMapping("/{id}")
     public Task updateTaskStatus(@PathVariable long id, @RequestBody Task task) {
+        taskToFileGateway.writeTaskToFile("task_log.txt", "Изменение статуса задачи " +
+                (task.getId() +1) + " на " + task.getTaskStatus());
+
         return taskService.updateTaskStatus(id, task);
     }
 
